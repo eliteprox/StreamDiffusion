@@ -1,3 +1,16 @@
+[project]
+name = "streamdiffusion"
+version = "0.1.0"
+description = "Realtime Stable Diffusion with tensorrt support"
+authors = [
+    { name="Your Name", email="your.email@example.com" }
+]
+
+[project.optional-dependencies]
+tensorrt = [
+    "tensorrt"
+]
+
 [tool.ruff]
 # Never enforce `E501` (line length violations).
 ignore = ["C901", "E501", "E741", "F402", "F403", "F405", "F823"]
