@@ -7,7 +7,7 @@ from setuptools import find_packages, setup
 _deps = [
     "torch",
     "xformers",
-    "diffusers>=0.32.0",
+    "diffusers>=0.14.0",
     "transformers",
     "accelerate",
     "fire",
